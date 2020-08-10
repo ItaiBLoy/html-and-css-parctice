@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        body {
+            background-color: rgb(176, 94, 235);
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+        .btn{
+            color: white;
+            font-size: larger;
+            margin: 10px 5px;
+        }
+
+        .btn-full:hover{
+            filter: brightness(85%);
+        }
+        .ghost1{
+            background-color: transparent; border: green solid 0.5px; padding: 10px 50px
+        }
+        .ghost2 {
+            background-color: transparent; border: red solid 0.5px; padding: 5px 30px;
+        }
+        .ghost3{
+            background-color: transparent; border: blue solid 0.5px; padding: 3px 20px;
+        }
+        .ghost4 {
+            background-color: transparent; border: orange solid 0.5px; border-radius: 25px; padding: 10px 50px
+        }
+        .ghost5{
+            background-color: transparent; border: yellow solid 0.5px; border-radius: 25px; padding: 5px 30px;
+        }
+        .ghost6{
+            background-color: transparent; border: gray solid 0.5px; border-radius: 25px; padding: 3px 20px;
+        }
+        .ghost1:hover {
+            background-color: green;
+        }
+        .ghost2:hover {
+            background-color: red;
+        }
+        .ghost3:hover {
+            background-color: blue;
+        }
+        .ghost4:hover {
+            background-color: orange;
+        }
+        .ghost5:hover {
+            background-color: yellow;
+        }
+        .ghost6:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="btn btn-full" style="background-color: green; border: none; padding: 10px 50px">Register</button>
+        <button class="btn btn-full" style="background-color: red; border: none; padding: 5px 30px;">Clear</button>
+        <button class="btn btn-full" style="background-color: blue; border: none; padding: 3px 20px;">Submit</button>
+    </div>
+    <div>
+        <button class="btn btn-full" style="background-color: orange; border: none; border-radius: 25px; padding: 10px 50px">Register</button>
+        <button class="btn btn-full" style="background-color: yellow; border: none; border-radius: 25px; padding: 5px 30px;">Clear</button>
+        <button class="btn btn-full" style="background-color: gray; border: none; border-radius: 25px; padding: 3px 20px;">Submit</button>
+    </div>
+    <div>
+        <button class="btn ghost1">Register</button>
+        <button class="btn ghost2">Clear</button>
+        <button class="btn ghost3">Submit</button>
+    </div>
+    <div>
+        <button class="btn ghost4">Register</button>
+        <button class="btn ghost5">Clear</button>
+        <button class="btn ghost6">Submit</button>
+    </div>
+</body>
+</html>

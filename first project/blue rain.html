@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A blue rain's a-gonna fall</title>
+    <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+    <style>
+ body {
+  background-color: rgb(216, 226, 230);
+  display: block;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+  display: inline-block;
+}
+
+.card {
+  color: #107595;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fdbfb3;
+}
+
+.card .card-text{
+  visibility: hidden;
+}
+
+.card:hover .card-text{
+  visibility: visible;
+}
+.card-text{
+  background-color: #107595;
+  color: #fcf594;
+  text-align: center;
+}
+h1 {
+    font-family: 'Nosifer';
+    text-align: center;
+    font-size: 10vw;
+    color: #010059;
+}
+
+        a {
+        text-decoration: none;
+      }
+
+      #container {
+        max-width: 400px;
+        width: fit-content;
+        padding: 20px;
+        margin-top: 10px;
+      }
+
+      .form-wrap {
+        background-color: #fcf594;
+        padding: 15px 25px;
+        border-radius: 15px;
+      }
+
+      .form-wrap h2,
+      .form-wrap p {
+        text-align: center;
+      }
+
+      .form-wrap .form-group {
+        margin-top: 15px;
+      }
+
+      .form-wrap .form-group label {
+        display: block;
+      }
+
+      .form-wrap .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: black solid 1px;
+        border-radius: 5px;
+      }
+
+      .form-wrap button {
+        width: 100%;
+        padding: 10px;
+        background-color: #49c1a2;
+        margin-top: 20px;
+        border: none;
+      }
+
+      .form-wrap button:hover {
+        background-color: #37a08e;
+      }
+
+      .form-wrap .bottom-text {
+        font-size: smaller;
+      }
+
+      footer {
+        text-align: center;
+        color: white;
+      }
+
+      footer a {
+        color: #49c1a2;
+      }
+
+@media screen and (max-width: 600px) {
+    .column {
+      display: contents;
+    }
+
+    #container {
+      font-size: 50%;
+    }
+}
+  
+
+        </style>
+</head>
+<body>
+    <h1>BLUE RAIN</h1>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <a href="default.asp"><img src="https://image.flaticon.com/icons/svg/3221/3221542.svg" style="width: 70%; height: 70%;"></a><br>
+            <div class="card-text">Play games</div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <a href="default.asp"><img src="https://image.flaticon.com/icons/svg/2201/2201590.svg" style="width: 70%; height: 70%;"></a><br>
+            <div class="card-text">Speak more languages</div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <a href="default.asp"><img src="https://image.flaticon.com/icons/svg/993/993497.svg" style="width: 70%; height: 70%;"></a><br>
+            <div class="card-text">Escape rooms</div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <a href="default.asp"><img src="https://image.flaticon.com/icons/svg/2178/2178189.svg" style="width: 70%; height: 70%;"></a><br>
+              <div class="card-text">Philosophical thoughts</div>
+          </div>
+        </div>
+      </div>
+     
+    <div id="container">
+      <div class="form-wrap">
+        <h2>Sign Up</h2>
+        <p>It's free and only takes a minute</p>
+        <form>
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="last-name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="pasword2" id="password2" />
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <p class="bottom-text">
+            By clicking the Sign Up button, you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+</body>
+</html>

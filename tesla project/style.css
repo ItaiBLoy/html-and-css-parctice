@@ -1,0 +1,199 @@
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7em;
+}
+
+.container {
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    background: transparent;
+    color: #fff;
+    overflow: auto;
+    text-decoration: none;
+}
+
+.logo img {
+    float: left;
+    display: inline;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+
+.models {
+    display: inline;
+}
+
+.right-menu {
+    float: right;
+    display: inline;
+}
+
+
+
+.top {
+    position: relative;
+    background: url(./media/model-3-hero-social.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.page-menu {
+    float: left;
+    list-style-type: '|';
+    color: gray;
+    text-decoration: none;
+    text-align: left;
+    margin-left: -20px;
+    position: absolute;
+}
+
+.page-menu li a {
+    text-decoration: none;
+    color: transparent;
+    font-size: smaller;
+}
+
+.page-menu li a:hover {
+    color: white;
+}
+
+.bottom-info {
+    height: 100px;
+    background: transparent;
+    color: #fff;
+    overflow: visible;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 430px;
+    padding: 0 20px;
+}
+
+.info-box {
+    display: inline-block;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.under-text {
+    font-size: 15px;
+}
+
+.second {
+    border-right: solid white 0.5px;
+    border-left: solid white 0.5px;
+}
+
+.bottom-info .info-btn {
+    border: solid white 3px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 150px;
+    font-size: small;
+    display: inline-block;
+    text-decoration: inherit;
+}
+
+.bottom-info .info-btn:hover {
+    background-color: white;
+    color: black;
+    text-decoration: inherit;
+}
+
+.arrow {
+    margin-top: 20px;
+}
+
+.safety {
+    display: flex;
+}
+
+.safety .logo {
+    position: absolute
+}
+
+.safety .logo img {
+    float: left;
+    display: inline-block;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.safety .right-pic img {
+    width: 75vw;
+    height: 100vh;
+    float: left;
+    display: if;
+
+}
+
+.safety h3 {
+    font-weight: normal;
+    color: gray;
+}
+
+.safety .safety-left {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    position: relative;
+}
+
+.safety-left-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.safety .safety-left .page-menu {
+    margin-top: 150px;
+}
+
+.safety .safety-left .page-menu li a:hover {
+    color: black;
+}
+
+.ratings {
+    display: flexbox;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+
+}
+
+.ratings h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.ratings .category {
+    font-weight: bold;
+}
+
+.ratings .category-sub {
+    font-size: smaller;
+}
+
+.ratings .stars {
+    float: right;
+    display: flex;
+}
+
+.rate {
+    display: flex;
+}

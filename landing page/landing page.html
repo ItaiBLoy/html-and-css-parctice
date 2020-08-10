@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background: black url(https://images-na.ssl-images-amazon.com/images/I/61jt8IFKP4L._AC_SL1134_.jpg) 
+            no-repeat center center/cover;
+            height: 100vh;
+            color: black;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        .all {
+
+        }
+
+        .balls {
+            display: flex;
+            vertical-align: center;
+            align-items: center;
+        }
+
+        .ball {
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 50px
+        }
+
+        header .all .hands {
+            float: bottom;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            max-height: 100px;
+            margin: 0 auto;
+            
+        }
+
+        .hand img {
+            height: 200px;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            position: absolute;
+            right: 0;
+
+        }
+
+        .left-hand img {
+            transform: scaleX(-1);
+            float: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Let's juggle!</h1>
+        <div class="all">
+            <div class="balls">
+                <div class="ball"><img src="https://www.spielwaren-juno.de/WebRoot/Store5/Shops/63364647/5D1D/B6A3/EB5A/3FAE/543C/0A0C/6D04/9953/Jonglierball_61-2062_as.png"></div>
+                <div class="ball"><img src="https://www.spielwaren-juno.de/WebRoot/Store5/Shops/63364647/5D1D/B6A3/EB5A/3FAE/543C/0A0C/6D04/9953/Jonglierball_61-2062_as.png"></div>
+                <div class="ball"><img src="https://www.spielwaren-juno.de/WebRoot/Store5/Shops/63364647/5D1D/B6A3/EB5A/3FAE/543C/0A0C/6D04/9953/Jonglierball_61-2062_as.png"></div>
+            </div>
+            <div class="hands">
+                <div class="hand left-hand"><img src="https://www.kindpng.com/picc/m/257-2572014_vector-illustration-of-open-hand-palm-examples-of.png"></div>
+                <div class="hand"><img src="https://www.kindpng.com/picc/m/257-2572014_vector-illustration-of-open-hand-palm-examples-of.png"></div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
